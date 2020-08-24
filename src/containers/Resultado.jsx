@@ -1,4 +1,5 @@
 import React from 'react';
+import ResponsivePlayer from '../components/ResponsivePlayer';
 import '../assets/styles/components/Resultado.scss';
 
 const Resultado = () => (
@@ -15,7 +16,9 @@ const Resultado = () => (
       </h1>
     </div>
     <div className='result-container-video'>
-      <iframe width='560' height='315' src='https://www.youtube.com/embed/BPoQuaTyt-U' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+      <ResponsivePlayer
+      url="https://www.youtube.com/watch?v=BPoQuaTyt-U&t=9s"
+      />
     </div>
 
   </div>
