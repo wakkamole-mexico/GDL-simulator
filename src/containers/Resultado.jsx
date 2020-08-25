@@ -29,7 +29,6 @@ const Resultado = () => (
       <div className='scroll-container fadeInUp'>
         <p className='scroll-title'>scroll</p>
         <div className='c-scrolldown'>
-
           <div className='c-line' />
         </div>
       </div>
