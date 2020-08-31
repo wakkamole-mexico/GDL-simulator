@@ -27,13 +27,13 @@ const MainSection = () => (
           <li>
             <div className='description--item'>
               <h2 className='description--numbers'>0000</h2>
-              <p>Proyectos</p>
+              <p>Clientes satisfechos</p>
             </div>
           </li>
           <li>
             <div className='description--item'>
               <h2 className='description--numbers'>0000</h2>
-              <p>Proyectos</p>
+              <p>Horas filmadas</p>
             </div>
           </li>
 
@@ -61,6 +61,9 @@ const MainSection = () => (
           <br />
           Esto es Grupo de León, te invitamos a ser parte de nuestra familia.
         </p>
+        <div className='paragraph--container__img'>
+          <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Flogo-black.svg?alt=media&token=0d892eca-e38c-4d67-bf00-fc08eb049f60' alt='' />
+        </div>
       </div>
     </div>
   </section>

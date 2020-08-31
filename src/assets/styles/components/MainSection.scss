@@ -1,6 +1,6 @@
 .information--container{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -9,6 +9,7 @@
 .information--hero__container{
     margin-top: 100px;
     width: 50%;
+    margin-bottom: 100px;
 }
 
 .informtation--title__container{
@@ -22,7 +23,7 @@
 }
 
 .container__img{
-    width: 45rem;
+    width: 90%;
 }
 
 .description--container{
@@ -54,4 +55,49 @@
 .paragraph--container p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.paragraph--container__img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:940px){
+    .information--hero__container{
+        width: 100vw;
+    }
+    .container__img{
+        width: 100%;
+    }
+    .description--container{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .list--description{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .title--container__img{
+        width: 350px;
+    }
+
+    .informtation--title__container h1{
+        font-size: 40px;
+    }
+    .container__img {
+        width: 100vw;
+    }
+    .description--container{
+        width: 100vw;
+    }
+    .list--description{
+        padding: 0;
+        display: list-item;
+    }
+    .paragraph--container{
+        margin-bottom: 30px;
+    }
 }
