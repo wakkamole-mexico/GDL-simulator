@@ -1,0 +1,41 @@
+.hero--container{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroud%402x.png?alt=media&token=2b8f0529-1811-4c88-b20d-1bd9a6a261a2);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
+}
+
+.header--container{
+    margin: 40px;
+    display: inline-block;
+}
+
+.main--container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title--container{
+    display: flex;
+    justify-content: center;
+}
+
+.title--container__img{
+    width: 400px;
+}
+
+.subtitle--container{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 380px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:450px) {
+    
+}
