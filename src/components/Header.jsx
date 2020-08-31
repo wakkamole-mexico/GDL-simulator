@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollAnimation from './ScrollAnimation';
+import ScrollAnimationWhite from './ScrollAnimationWhite';
 import '../assets/styles/components/Header.scss';
 
 const Header = () => (
@@ -18,7 +18,7 @@ const Header = () => (
         <button className='button--container'>
           <a href='#' className='button-cta'>CTA</a>
         </button>
-        <ScrollAnimation />
+        <ScrollAnimationWhite />
       </div>
     </div>
   </header>

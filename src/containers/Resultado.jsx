@@ -27,7 +27,7 @@ const Resultado = () => (
         </div>
 
       </div>
-      <ScrollAnimation/>
+      <ScrollAnimation />
     </div>
     <Salas />
   </div>

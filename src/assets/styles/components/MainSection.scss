@@ -1,0 +1,57 @@
+.information--container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.information--hero__container{
+    margin-top: 100px;
+    width: 50%;
+}
+
+.informtation--title__container{
+    color: black;
+    position: absolute;
+    margin-top: -70px;
+}
+
+.information--container__img{
+    margin-top: 130px;
+}
+
+.container__img{
+    width: 45rem;
+}
+
+.description--container{
+    width: 50%;
+}
+
+.list--description{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description--item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.description--numbers{
+    color: black;
+    margin: 0;
+    font-size: 40px;
+}
+
+.paragraph--container{
+    margin: 0px 40px;
+}
+
+.paragraph--container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

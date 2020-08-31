@@ -1,13 +1,19 @@
 import React from 'react';
+import classNames from 'classnames';
 import '../assets/styles/components/ScrollAnimation.scss';
 
-const ScrollAnimation = () => (
-  <div className='scroll-container fadeInUp'>
-    <p className='scroll-title'>scroll</p>
-    <div className='c-scrolldown'>
-      <div className='c-line' />
+const ScrollAnimation = ({ isHome }) => {
+  const scrollstyles = classNames('scroll-title', {
+    isHome,
+  });
+  return (
+    <div className='scroll-container fadeInUp'>
+      <p className={scrollstyles}>scroll</p>
+      <div className='c-scrolldown'>
+        <div className='c-line' />
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default ScrollAnimation;
