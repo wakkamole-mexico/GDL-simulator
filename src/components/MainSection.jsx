@@ -53,10 +53,14 @@ const MainSection = () => (
         <h3>
           Creamos publicidad, entretenimiento y experiencias.
         </h3>
-        <p>Tenemos varios enfoques para ofrecerte siempre lo mejor.<br/><br/>
-Producción, Post producción, Publicidad, Video, Audio, Radio, Fotografía, Diseño y 
-Difusión.<br/>
-Esto es Grupo de León, te invitamos a ser parte de nuestra familia.</p>
+        <p>
+          Tenemos varios enfoques para ofrecerte siempre lo mejor.
+          <br />
+          Producción, Post producción, Publicidad, Video, Audio, Radio, Fotografía, Diseño y
+          Difusión.
+          <br />
+          Esto es Grupo de León, te invitamos a ser parte de nuestra familia.
+        </p>
       </div>
     </div>
   </section>
