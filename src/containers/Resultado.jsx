@@ -1,5 +1,6 @@
 import React from 'react';
 import ResponsivePlayer from '../components/ResponsivePlayer';
+import ScrollAnimation from '../components/ScrollAnimation';
 import Salas from '../components/Salas';
 import '../assets/styles/components/Resultado.scss';
 import '../assets/styles/Animations.scss';
@@ -26,13 +27,7 @@ const Resultado = () => (
         </div>
 
       </div>
-      <div className='scroll-container fadeInUp'>
-        <p className='scroll-title'>scroll</p>
-        <div className='c-scrolldown'>
-          <div className='c-line' />
-        </div>
-      </div>
-
+      <ScrollAnimation/>
     </div>
     <Salas />
   </div>

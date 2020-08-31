@@ -14,6 +14,9 @@ const Header = () => (
       <div className='subtitle--container'>
         <p>Somos narradores de historias de principio a fin, utilizando cualquier enfoque funcional para el despegue de todo tipo de proyecto.</p>
       </div>
+      <button className="button--container">
+      <a href="#" className="button-cta">CTA</a>
+      </button>
       </div>
     </div>
   </header>
