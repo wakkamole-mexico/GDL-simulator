@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import MainSection from '../components/MainSection';
 import Divider from '../components/Divider';
 import Services from '../components/Services';
+import Steps from '../components/Steps';
 import '../assets/styles/App.scss';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Divider />
       <Services />
       <Divider />
+      <Steps />
     </div>
   );
 };
