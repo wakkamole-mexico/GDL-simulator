@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimationWhite from './ScrollAnimationWhite';
+import ButtonCTA from './ButtonCTA';
 import '../assets/styles/components/Header.scss';
 
 const Header = () => (
@@ -15,9 +16,7 @@ const Header = () => (
         <div className='subtitle--container'>
           <p>Somos narradores de historias de principio a fin, utilizando cualquier enfoque funcional para el despegue de todo tipo de proyecto.</p>
         </div>
-        <button className='button--container'>
-          <a href='#' className='button-cta'>CTA</a>
-        </button>
+        <ButtonCTA />
         <ScrollAnimationWhite />
       </div>
     </div>

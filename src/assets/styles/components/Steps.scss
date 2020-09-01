@@ -1,0 +1,46 @@
+.steps--container{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundorange.svg?alt=media&token=498975da-7696-45f4-a19b-ce4451025310);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps--img__container{
+    display: flex;
+    align-self: center;
+}
+
+.steps--description__container{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.steps--description__caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.steps--description__hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps--description__number{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 31px;
+}
+
+@media screen and (max-width: 450px){
+    .steps--container img{
+        width: 100vw;
+    }
+
+}
