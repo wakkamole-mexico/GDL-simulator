@@ -27,14 +27,38 @@
     margin: 0;
     text-align: center;
     width: 100%;
+    margin-bottom: 150px;
 }
 
 .cards--item img{
-    width: 200px;
+    width: 450px;
+    margin-bottom: 50px;
+}
+.services--cards__subtitle{
+    margin: 0 300px 50px;
+}
+.services--cards__subtitle h2{
+    color: black;
+    
+}
+
+@media screen and (max-width:1200px){
+    .services--cards__subtitle{
+        margin: 0 50px 50px;
+    }
 }
 
 @media screen and (max-width:450px) {
     .services--container h1{
         font-size: 40px;
     }
+    .cards--item img{
+        width: 100vw
+    }
+    .services--cards__subtitle{
+        margin: 0 15px 50px;
+    }
+    .services--cards__subtitle h2{
+        font-size: 28px;
+    }    
 }
