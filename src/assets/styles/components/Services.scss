@@ -1,4 +1,40 @@
 .services--container{
-    height: 100vh;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundwhite.svg?alt=media&token=cf1c2062-426e-43ec-85e4-c508bd5e0bf4);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
     color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.services--container__title{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.services--cards--container{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services--container h1{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.cards--item img{
+    width: 200px;
+}
+
+@media screen and (max-width:450px) {
+    .services--container h1{
+        font-size: 40px;
+    }
 }
