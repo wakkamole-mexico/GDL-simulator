@@ -1,0 +1,30 @@
+.request-container{
+    background-color: #FF5620;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.request--title__hero{
+    border-top: 5px solid white;
+    width: 100vw;
+}
+
+.request-container__title{
+    border-bottom: 5px solid white;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.request-container__title h1 {
+    color: white;
+}
+
+.button-request__container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
