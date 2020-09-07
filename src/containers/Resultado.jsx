@@ -2,6 +2,7 @@ import React from 'react';
 import ResponsivePlayer from '../components/ResponsivePlayer';
 import ScrollAnimation from '../components/ScrollAnimation';
 import Salas from '../components/Salas';
+import Divider from '../components/Divider';
 import '../assets/styles/components/Resultado.scss';
 import '../assets/styles/Animations.scss';
 
@@ -29,7 +30,9 @@ const Resultado = () => (
       </div>
       <ScrollAnimation />
     </div>
+    <Divider />
     <Salas />
+    <Divider />
   </div>
 );
 

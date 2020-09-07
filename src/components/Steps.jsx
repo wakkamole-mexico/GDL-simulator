@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonCTA from './ButtonCTA';
 import '../assets/styles/components/Steps.scss';
 
 const Steps = () => (
@@ -23,6 +24,7 @@ const Steps = () => (
         <p className='steps--description__caption'>¡Manos a la obra!</p>
       </div>
     </div>
+    <ButtonCTA />
   </div>
 );
 

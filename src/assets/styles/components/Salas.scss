@@ -1,7 +1,7 @@
 
 
 .Salas-container{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundblack%403x.png?alt=media&token=9f784e7a-ccdf-4f39-b2d7-d30c7e2ebebd);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundrusultado.svg?alt=media&token=d61c310d-a585-4fc1-a731-905766a4657a);
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 h2{
-    color: white;
+    color: black;
     font-weight: 300;
     text-align: center;
     font-size: 2rem;
@@ -35,8 +35,8 @@ h2{
 }
 
 .card--item{
-    width: 300px;
-    height: 450px;
+    width: 500px;
+    height: 350px;
     background-color: yellow;
     margin: 30px;
     overflow: hidden;
@@ -78,7 +78,7 @@ h2{
 }
 
 .card--item__img{
-    width: 300px;
+    width: 612px;
     height: 450px;
     object-fit: cover;
 }
@@ -105,4 +105,12 @@ h2{
     letter-spacing: 3px;
     font-family: 'Roboto', sans-serif;
     
+}
+
+@media screen and (max-width: 450px){
+    .card--item{
+    width: 90vw;
+    height: 30vh;
+    }
+
 }
