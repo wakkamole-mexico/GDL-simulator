@@ -20,19 +20,19 @@ const MainSection = () => (
         <ul className='list--description'>
           <li>
             <div className='description--item'>
-              <h2 className='description--numbers'>0000</h2>
+              <h2 className='description--numbers'>5069</h2>
               <p>Proyectos</p>
             </div>
           </li>
           <li>
             <div className='description--item'>
-              <h2 className='description--numbers'>0000</h2>
+              <h2 className='description--numbers'>1026</h2>
               <p>Clientes satisfechos</p>
             </div>
           </li>
           <li>
             <div className='description--item'>
-              <h2 className='description--numbers'>0000</h2>
+              <h2 className='description--numbers'>9830</h2>
               <p>Horas filmadas</p>
             </div>
           </li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonCTABLack from './ButtonCTABlack';
 import '../assets/styles/components/Services.scss';
 
 const Services = () => (
@@ -26,9 +27,12 @@ const Services = () => (
         <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fservices%2FCorreccion%20de%20color%403x.png?alt=media&token=e5ac7b4f-bb3c-4b1d-8538-ed1182e97e6f' alt='correcion' />
       </div>
     </div>
-    <div className="services--cards__subtitle">
-        <h2>Entra a nuestro simulador y te mostraremos
-como puede verse tu proyecto.</h2>
+    <div className='services--cards__subtitle'>
+      <h2>
+        Entra a nuestro simulador y te mostraremos
+        como puede verse tu proyecto.
+      </h2>
+      <ButtonCTABLack />
     </div>
   </div>
 );

@@ -8,23 +8,39 @@
     align-items: center;
 }
 .request--title__hero{
-    border-top: 5px solid white;
+    
     width: 100vw;
 }
 
 .request-container__title{
     border-bottom: 5px solid white;
-    width: 100%;
+    
     justify-content: flex-end;
     display: flex;
+    
+    margin-left: 50px;
 }
 
 .request-container__title h1 {
     color: white;
+    margin-right: auto;
 }
 
 .button-request__container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    padding-left: 50px;
+    padding-bottom: 100px;
+
+}
+
+
+@media screen and (max-width:860px) {
+    .request-container__title h1 {
+        font-size: 60px;
+    }   
+}
+
+@media screen and (max-width:460px) {
+    .request-container__title h1 {
+        font-size: 26px;
+    }   
 }

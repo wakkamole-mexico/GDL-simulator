@@ -13,6 +13,9 @@ h1{
     font-weight: 300;
     font-size: 83px;
 }
+.title-hide{
+  display: none;
+}
 
 .result-container-main{
     display: flex;
@@ -73,3 +76,18 @@ h1{
   }
   
 
+  @media screen and (max-width: 700px){
+    h1{
+      display: none;
+  }
+  .title-hide{
+    display: block ;
+  }
+  .result-container-main{
+    flex-direction: column;
+  }
+  .result-container-video{
+    width: 100%;
+  }
+
+}

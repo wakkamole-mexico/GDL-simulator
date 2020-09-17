@@ -3,6 +3,7 @@ import ResponsivePlayer from '../components/ResponsivePlayer';
 import ScrollAnimation from '../components/ScrollAnimation';
 import Salas from '../components/Salas';
 import Divider from '../components/Divider';
+import ProjectsDone from '../components/ProjectsDone';
 import '../assets/styles/components/Resultado.scss';
 import '../assets/styles/Animations.scss';
 
@@ -20,6 +21,9 @@ const Resultado = () => (
             <br />
             proyecto
           </h1>
+          <h2 className='title-hide'>
+            Así puede verse tu próximo proyecto
+          </h2>
         </div>
         <div className='result-container-video'>
           <ResponsivePlayer
@@ -33,6 +37,7 @@ const Resultado = () => (
     <Divider />
     <Salas />
     <Divider />
+    <ProjectsDone />
   </div>
 );
 

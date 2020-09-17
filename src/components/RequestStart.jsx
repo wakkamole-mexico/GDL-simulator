@@ -14,8 +14,9 @@ const RequestStart = () => (
           necesitas para tu proyecto.
         </h1>
       </div>
-      <div className='button-request__container' />
-      <ButtonCTA />
+      <div className='button-request__container'>
+        <ButtonCTA />
+      </div>
     </div>
   </div>
 );

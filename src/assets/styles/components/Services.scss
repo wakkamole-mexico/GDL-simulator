@@ -35,7 +35,9 @@
     margin-bottom: 50px;
 }
 .services--cards__subtitle{
-    margin: 0 300px 50px;
+    margin: 0 300px 80px;
+    display: flex;
+    flex-direction: column;
 }
 .services--cards__subtitle h2{
     color: black;
@@ -57,6 +59,7 @@
     }
     .services--cards__subtitle{
         margin: 0 15px 50px;
+        
     }
     .services--cards__subtitle h2{
         font-size: 28px;

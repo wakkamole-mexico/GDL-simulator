@@ -11,13 +11,11 @@ const Home = () => {
   return (
     <div className='App'>
       <RequestStart />
-      <Header />
       <Divider />
       <MainSection />
       <Divider />
       <Services />
       <Divider />
-      <Steps />
     </div>
   );
 };

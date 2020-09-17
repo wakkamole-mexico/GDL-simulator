@@ -5,7 +5,7 @@ import { BiPlayCircle } from 'react-icons/bi';
 const Salas = () => (
   <section className='Salas-container'>
     <div className='salas-title__container'>
-      <h2>
+      <h2 className="title--salas">
         Conoce las salas que usaremos
       </h2>
     </div>
