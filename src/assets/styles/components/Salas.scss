@@ -6,7 +6,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     height: auto;
-    min-height: 100vh;
+    // min-height: 100vh;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .salas-title__container{
