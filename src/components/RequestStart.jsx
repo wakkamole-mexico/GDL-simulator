@@ -6,7 +6,7 @@ const RequestStart = () => (
   <div className='request-container'>
     <div className='request--title__hero'>
       <div className='request-container__title'>
-        <h1>
+        <h1 className='title--main'>
           Queremos conocer los
           <br />
           requerimientos que

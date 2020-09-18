@@ -5,7 +5,7 @@ const MainSection = () => (
   <section className='information--container'>
     <div className='information--hero__container'>
       <div className='informtation--title__container'>
-        <h1>
+        <h1 className='information__title'>
           ¿Quiénes
           <br />
           Somos?

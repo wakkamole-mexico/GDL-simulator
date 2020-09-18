@@ -12,7 +12,7 @@ const Resultado = () => (
     <div className='result-container'>
       <div className='result-container-main'>
         <div className='result-container-title fadeIn'>
-          <h1 className='title-h1'>
+          <h1 className='title--result'>
             Así puede
             <br />
             verse tu
