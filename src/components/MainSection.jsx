@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/components/MainSection.scss';
+import '../assets/styles/Animations.scss';
+
 
 const MainSection = () => (
   <section className='information--container'>
@@ -12,11 +14,11 @@ const MainSection = () => (
           Somos?
         </h1>
       </div>
-  
+
       <div className='information--container__img'>
-      <Link to="/resultado">
+
         <img className='container__img' src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fcamera%403x.png?alt=media&token=dbed87a1-b52c-4943-b47b-03f8d76707e5' alt='' />
-        </Link>
+
       </div>
     </div>
     <div className='description--container'>
