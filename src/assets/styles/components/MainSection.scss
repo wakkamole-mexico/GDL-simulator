@@ -85,6 +85,9 @@
 }
 
 @media screen and (max-width:450px) {
+    .information--hero__container{
+        margin-bottom: 0;
+    }
     .title--container__img{
         width: 350px;
     }
