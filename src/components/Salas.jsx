@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/Salas.scss';
+import ResponsivePlayer from './ResponsivePlayer';
 import { BiPlayCircle } from 'react-icons/bi';
 
 const Salas = () => (
@@ -11,15 +12,18 @@ const Salas = () => (
     </div>
     <div className='cards-container'>
       <div className='card--item'>
-        <img className='card--item__img' src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fimage-resultado%403x.png?alt=media&token=da32c8b5-332f-4d60-a033-a7999485817b' alt='' />
-        <div className='card--button__container'>
+        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gld-videos%2F_INSTALACIONES%20ULISES%20C.COLOR_REDES.mp4?alt=media&token=bda2edbe-26ec-46a2-9aca-4856147ff75a'>
+
+        </ResponsivePlayer>
+        {/* <img className='card--item__img' src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fimage-resultado%403x.png?alt=media&token=da32c8b5-332f-4d60-a033-a7999485817b' alt='' /> */}
+        {/* <div className='card--button__container'>
           <button className='card--play__button'>
             <BiPlayCircle className='card--play__icon' />
           </button>
-        </div>
-        <div className='card--item__details'>
+        </div> */}
+        {/* <div className='card--item__details'>
           <p className='card--item__details--title'>Sala de audio</p>
-        </div>
+        </div> */}
       </div>
       <div className='card--item'>
         <img className='card--item__img' src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fcard-1%403x.png?alt=media&token=128879dd-5bab-4d76-a657-463ba057c397' alt='' />

@@ -42,8 +42,12 @@
 
 .card--item{
     width: 500px;
-    height: 350px;
-    background-color: yellow;
+    height: auto;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fcard-1%403x.png?alt=media&token=128879dd-5bab-4d76-a657-463ba057c397');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    // background-color: yellow;
     margin: 30px;
     overflow: hidden;
     display: inline-block;
@@ -79,9 +83,9 @@
     cursor: pointer;
 }
 
-.card--item:hover{
-    transform: scale(1.1);
-}
+// .card--item:hover{
+//     transform: scale(1.1);
+// }
 
 .card--item__img{
     width: 612px;
@@ -116,6 +120,5 @@
 @media screen and (max-width: 450px){
     .card--item{
     width: 90vw;
-    height: 30vh;
     }
 }
