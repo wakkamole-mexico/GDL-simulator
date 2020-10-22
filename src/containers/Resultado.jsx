@@ -27,8 +27,7 @@ const Resultado = () => (
         </div>
         <div className='result-container-video'>
           <ResponsivePlayer
-            url='https://www.youtube.com/watch?v=BPoQuaTyt-U&t=9s'
-          />
+            url='https://www.youtube.com/watch?v=BPoQuaTyt-U&t=9s'/>
         </div>
 
       </div>

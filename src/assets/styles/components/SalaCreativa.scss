@@ -1,0 +1,16 @@
+.card--itemSC{
+    width: 500px;
+    height: auto;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fsalas%2FSala-Creativa.png?alt=media&token=c0c83901-422d-4e9b-9950-85e2ae023ef6');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    // background-color: yellow;
+    margin: 30px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    position: relative;
+}
