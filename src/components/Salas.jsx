@@ -3,6 +3,8 @@ import '../assets/styles/components/Salas.scss';
 import { BiPlayCircle } from 'react-icons/bi';
 import SalaCreativa from './SalaCreativa';
 import SaladeAudio from './SaladeAudio';
+import SalaCorreccionColor from './SalaCorreccionColor';
+import SaladeEdicion from './SaladeEdicion';
 import ResponsivePlayer from './ResponsivePlayer';
 
 const Salas = () => (
@@ -18,6 +20,8 @@ const Salas = () => (
 
       <SalaCreativa />
       <SaladeAudio />
+      <SalaCorreccionColor />
+      <SaladeEdicion />
       <SalaCreativa />
       <SalaCreativa />
       <SalaCreativa />
