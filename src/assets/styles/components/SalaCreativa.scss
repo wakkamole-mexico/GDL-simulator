@@ -1,3 +1,9 @@
+.sala--item{
+    background-color: white;
+    box-shadow: 1px 2px 4px 0 rgba(21,99,157,.16);
+    border-radius: .5rem;
+    margin-bottom: 30px;
+}
 .card--itemSC{
     width: 500px;
     height: auto;
@@ -6,11 +12,31 @@
     background-position: center center;
     background-repeat: no-repeat;
     // background-color: yellow;
-    margin: 30px;
+    margin: 00px 0px 10px 0px;
     overflow: hidden;
     display: inline-block;
     cursor: pointer;
     transition: 450ms all;
     transform-origin: center left;
     position: relative;
+    border-radius: .5rem;
 }
+.title--sala{
+    text-align: initial;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    color: #223354;
+}
+
+@media screen and (max-width:500px) {
+    .sala--item {
+        width: 80%;
+    }   
+
+    .card--itemSC{
+    width: 100%;
+    }
+}
+

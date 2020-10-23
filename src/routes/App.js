@@ -12,8 +12,8 @@ const App = () => (
         <HashRouter>
           <Route exact path='/' component={Home} />
           <Route exact path='/resultado' component={Resultado} />
-          <Route component={NotFound} />
         </HashRouter>
+        <Route component={NotFound} />
       </Switch>
     </Layout>
   </BrowserRouter>

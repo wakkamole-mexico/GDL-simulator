@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/styles/components/Salas.scss';
-import SalaCreativa from './SalaCreativa';
 import { BiPlayCircle } from 'react-icons/bi';
+import SalaCreativa from './SalaCreativa';
 import ResponsivePlayer from './ResponsivePlayer';
 
 const Salas = () => (
@@ -13,16 +13,13 @@ const Salas = () => (
     </div>
     <div className='cards-container'>
 
-      <SalaCreativa/>
-      <div className='card--item'>
-        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gld-videos%2F_INSTALACIONES%20ULISES%20C.COLOR_REDES.mp4?alt=media&token=bda2edbe-26ec-46a2-9aca-4856147ff75a' />
-      </div>
-      <div className='card--item'>
-        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gld-videos%2F_INSTALACIONES%20ULISES%20C.COLOR_REDES.mp4?alt=media&token=bda2edbe-26ec-46a2-9aca-4856147ff75a' />
-      </div>
-      <div className='card--item'>
-        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gld-videos%2F_INSTALACIONES%20ULISES%20C.COLOR_REDES.mp4?alt=media&token=bda2edbe-26ec-46a2-9aca-4856147ff75a' />
-      </div>
+      <SalaCreativa />
+      <SalaCreativa />
+      <SalaCreativa />
+      <SalaCreativa />
+      <SalaCreativa />
+      <SalaCreativa />
+      <SalaCreativa />
     </div>
   </section>
 );

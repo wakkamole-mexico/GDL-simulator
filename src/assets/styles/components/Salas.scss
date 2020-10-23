@@ -1,14 +1,15 @@
 
 
 .Salas-container{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundrusultado.svg?alt=media&token=d61c310d-a585-4fc1-a731-905766a4657a);
-    background-size:cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    // background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundrusultado.svg?alt=media&token=d61c310d-a585-4fc1-a731-905766a4657a);
+    // background-size:cover;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    background-color:rgb(243, 248, 251);
     height: auto;
     // min-height: 100vh;
     padding-bottom: 100px;
-    padding-top: 100px;
+    // padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -23,7 +24,7 @@
     font-weight: 300;
     text-align: center;
     font-size: 2rem;
-    background-color: white
+    // background-color: white
     
 }
 
