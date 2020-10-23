@@ -6,7 +6,7 @@ const SalaCreatvia = () => {
   return (
     <div className='sala--item'>
       <div className='card--itemSC'>
-        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gld-videos%2FSALA%20CREATIVA.mp4?alt=media&token=3d17cf52-e87f-4a93-b4d8-4cb5c0a1355e' />
+        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/gdl-9ecdf.appspot.com/o/SALA%20CREATIVA.mp4?alt=media&token=fb1a5aa9-bd5f-4ac1-b79b-b82fd602eea5' />
       </div>
       <h3 className='title--sala'>Sala Creativa</h3>
     </div>
