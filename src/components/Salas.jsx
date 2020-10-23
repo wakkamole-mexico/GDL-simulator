@@ -5,6 +5,7 @@ import SalaCreativa from './SalaCreativa';
 import SaladeAudio from './SaladeAudio';
 import SalaCorreccionColor from './SalaCorreccionColor';
 import SaladeEdicion from './SaladeEdicion';
+import SaladeFilmacion from './SaladeFilmacion';
 import ResponsivePlayer from './ResponsivePlayer';
 
 const Salas = () => (
@@ -22,6 +23,7 @@ const Salas = () => (
       <SaladeAudio />
       <SalaCorreccionColor />
       <SaladeEdicion />
+      <SaladeFilmacion />
       <SalaCreativa />
       <SalaCreativa />
       <SalaCreativa />
