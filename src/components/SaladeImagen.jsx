@@ -6,7 +6,7 @@ const SaladeImagen = () => {
   return (
     <div className='sala--item'>
       <div className='card--itemSI'>
-        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gld-videos%2FSALA%20DE%20IMAGEN.mp4?alt=media&token=c3b02a23-d25f-4306-bd62-82d465debd11' />
+        <ResponsivePlayer url='https://firebasestorage.googleapis.com/v0/b/gdl-9ecdf.appspot.com/o/SALA%20DE%20IMAGEN.mp4?alt=media&token=7f6552ef-2053-4cf5-8888-8e3b37a3b47f' />
       </div>
       <h3 className='title--sala'>Sala de Imagen</h3>
     </div>

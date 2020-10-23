@@ -27,7 +27,7 @@ const Resultado = () => (
         </div>
         <div className='result-container-video'>
           <ResponsivePlayer
-            url='https://www.youtube.com/watch?v=BPoQuaTyt-U&t=9s'/>
+            url='https://firebasestorage.googleapis.com/v0/b/gdl-9ecdf.appspot.com/o/videos-resultado%2Fpolo-ralph-lauren.mp4?alt=media&token=499e5715-8350-43f2-8ea2-54a38319d3ef'/>
         </div>
 
       </div>
