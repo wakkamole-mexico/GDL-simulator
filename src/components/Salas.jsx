@@ -8,7 +8,7 @@ const Salas = () => (
   <section className='Salas-container'>
     <div className='salas-title__container'>
       <h2 className='title--salas'>
-        Conoce las salas que usaremos
+        Conoce las salas <br/> que usaremos
       </h2>
     </div>
     <div className='cards-container'>
