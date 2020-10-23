@@ -36,7 +36,7 @@ const Resultado = () => (
     <Divider />
     <Salas />
     <Divider />
-    <ProjectsDone />
+    {/* <ProjectsDone /> */}
   </div>
 );
 

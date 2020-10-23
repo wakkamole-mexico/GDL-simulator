@@ -6,6 +6,8 @@ import SaladeAudio from './SaladeAudio';
 import SalaCorreccionColor from './SalaCorreccionColor';
 import SaladeEdicion from './SaladeEdicion';
 import SaladeFilmacion from './SaladeFilmacion';
+import SaladeImagen from './SaladeImagen';
+import SalaTHX from './SalaTHX';
 import ResponsivePlayer from './ResponsivePlayer';
 
 const Salas = () => (
@@ -24,12 +26,8 @@ const Salas = () => (
       <SalaCorreccionColor />
       <SaladeEdicion />
       <SaladeFilmacion />
-      <SalaCreativa />
-      <SalaCreativa />
-      <SalaCreativa />
-      <SalaCreativa />
-      <SalaCreativa />
-      <SalaCreativa />
+      <SaladeImagen />
+      <SalaTHX />
     </div>
   </section>
 );
