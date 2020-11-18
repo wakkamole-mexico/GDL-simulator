@@ -1,5 +1,5 @@
 .request-container{
-    background-color: #FF5620;
+    background-color: #B5FB5F;
     width: 100vw;
     min-height: 100vh;
     height: auto;
@@ -13,7 +13,7 @@
 }
 
 .request-container__title{
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid black;
     
     justify-content: flex-end;
     display: flex;
@@ -23,7 +23,7 @@
 
 .title--main{
     font-weight: 300;
-    color: white;
+    color: black;
     margin-right: auto;
     font-size: 70px;
 }

@@ -17,7 +17,7 @@ const MainSection = () => (
 
       <div className='information--container__img'>
 
-        <img className='container__img' src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fcamera%403x.png?alt=media&token=dbed87a1-b52c-4943-b47b-03f8d76707e5' alt='' />
+        <img className='container__img' src='https://firebasestorage.googleapis.com/v0/b/gdl-9ecdf.appspot.com/o/assets%2Fimage-1%403x.png?alt=media&token=48b24d60-c539-4a97-8eff-9e9668940bb3' alt='' />
 
       </div>
     </div>
@@ -68,7 +68,7 @@ const MainSection = () => (
           Esto es Grupo de León, te invitamos a ser parte de nuestra familia.
         </p>
         <div className='paragraph--container__img'>
-          <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Flogo-black.svg?alt=media&token=0d892eca-e38c-4d67-bf00-fc08eb049f60' alt='' />
+          <img src='https://firebasestorage.googleapis.com/v0/b/gdl-9ecdf.appspot.com/o/assets%2Flogo-gdl.svg?alt=media&token=db9e327e-d06f-4064-9f30-797b09fdda62' alt='' />
         </div>
       </div>
     </div>
