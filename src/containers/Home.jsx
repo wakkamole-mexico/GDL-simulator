@@ -16,6 +16,8 @@ const Home = () => {
       <Divider />
       <Services />
       <Divider />
+      <Steps />
+      <Divider />
     </div>
   );
 };
