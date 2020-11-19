@@ -1,0 +1,16 @@
+.clients{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.client__img{
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    padding-top: 60px;
+}
+
+.client__img--item{
+    width: 600px;
+}
