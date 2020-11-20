@@ -20,7 +20,6 @@ const Salas = () => (
       </h2>
     </div>
     <div className='cards-container'>
-
       <SalaCreativa />
       <SaladeAudio />
       <SalaCorreccionColor />

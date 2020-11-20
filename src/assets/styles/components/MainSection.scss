@@ -9,7 +9,9 @@
 .information__title{
     font-size: 83px;
     font-weight: 300;
+    margin: 0;
 }
+
 
 .information--hero__container{
     margin-top: 100px;
@@ -19,12 +21,12 @@
 
 .informtation--title__container{
     color: black;
-    position: absolute;
-    margin-top: -70px;
+    // position: absolute;
+    // margin-top: -70px;
 }
 
 .information--container__img{
-    margin-top: 130px;
+    // margin-top: 130px;
 }
 
 .container__img{
@@ -65,7 +67,7 @@
 .paragraph--container__img{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    // margin-top: 30px;
 }
 
 @media screen and (max-width:940px){
