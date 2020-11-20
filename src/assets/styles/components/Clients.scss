@@ -1,5 +1,6 @@
 .clients{
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-color: black;
     color: white;
 }
@@ -13,4 +14,72 @@
 
 .client__img--item{
     width: 600px;
+}
+.clients__title--container{
+    justify-content: center;
+    display: flex;
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+
+.clients__title{
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0;
+    width: 600px;
+}
+
+.clients__images--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.clients--img{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.samsung--img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.clients--subtitle__container h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 20;
+}
+
+.logo--container{
+    display: flex;
+    justify-content: center;
+}
+.button--containerwhite{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 780px){
+    .clients--marcas{
+        margin-top: 50px;
+    }
+    .clients__title--container{
+        position: absolute;
+    }
+    .client__img{
+        padding-top: 0px;
+    }
+    .client__img--item{
+        width: 100vw;
+    }
+    .clients__title{
+        font-size: 40px;
+        font-weight: 300;
+        width: auto;
+    }
+    .images--item{
+        width: 60%;
+    }
 }
