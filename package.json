@@ -21,6 +21,7 @@
   "homepage": "https://github.com/wakkamole-mexico/GDL-simulator#readme",
   "dependencies": {
     "classnames": "^2.2.6",
+    "node": "^15.8.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
