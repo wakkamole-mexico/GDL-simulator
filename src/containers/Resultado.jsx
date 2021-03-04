@@ -6,6 +6,13 @@ import Divider from '../components/Divider';
 import ProjectsDone from '../components/ProjectsDone';
 import '../assets/styles/components/Resultado.scss';
 import '../assets/styles/Animations.scss';
+import SalaCreativa from '../components/SalaCreativa';
+import SaladeAudio from '../components/SaladeAudio';
+import SalaCorreccionColor from '../components/SalaCorreccionColor';
+import SaladeEdicion from '../components/SaladeEdicion';
+import SaladeFilmacion from '../components/SaladeFilmacion';
+import SaladeImagen from '../components/SaladeImagen';
+import SalaTHX from '../components/SalaTHX';
 
 const Resultado = () => (
   <div>
@@ -38,9 +45,26 @@ const Resultado = () => (
       <ScrollAnimation />
     </div>
     <Divider />
-    <Salas />
+    <section className='Salas-container'>
+      <div className='salas-title__container'>
+        <h2 className='title--salas'>
+          Conoce las salas
+          <br />
+          que usaremos
+        </h2>
+      </div>
+      <div className='cards-container'>
+        <SalaCreativa />
+        <SaladeAudio />
+        <SalaCorreccionColor />
+        <SaladeEdicion />
+        <SaladeFilmacion />
+        <SaladeImagen />
+        <SalaTHX />
+      </div>
+    </section>
     <Divider />
-    
+
   </div>
 );
 
