@@ -4,6 +4,7 @@ import Home from '../containers/Home';
 import Resultado from '../containers/Resultado';
 import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
+import Resultadov2 from '../containers/ResultadoV2'
 
 const App = () => (
   <BrowserRouter>
@@ -12,6 +13,7 @@ const App = () => (
         <HashRouter>
           <Route exact path='/' component={Home} />
           <Route exact path='/resultado' component={Resultado} />
+          <Route exact path='/resultadov2' component={Resultadov2} />
         </HashRouter>
         <Route component={NotFound} />
       </Switch>

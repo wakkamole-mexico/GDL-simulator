@@ -14,7 +14,7 @@ import SaladeFilmacion from '../components/SaladeFilmacion';
 import SaladeImagen from '../components/SaladeImagen';
 import SalaTHX from '../components/SalaTHX';
 
-const Resultado = () => (
+const ResultadoV10 = () => (
   <div>
     <div className='result-container'>
       <div className='result-container-main'>
@@ -54,11 +54,9 @@ const Resultado = () => (
         </h2>
       </div>
       <div className='cards-container'>
-        <SalaTHX />
         <SalaCreativa />
         <SaladeImagen />
         <SaladeEdicion />
-        <SaladeAudio />
         <SaladeFilmacion />
         <SalaCorreccionColor />
       </div>
@@ -68,4 +66,4 @@ const Resultado = () => (
   </div>
 );
 
-export default Resultado;
+export default ResultadoV10;
