@@ -48,7 +48,7 @@ const ResultadoV63 = () => (
     <section className='Salas-container'>
       <div className='salas-title__container'>
         <h2 className='title--salas'>
-          Conoce las Salas
+          Conoce la Sala
           <br />
           que usaremos
         </h2>

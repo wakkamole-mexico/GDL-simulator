@@ -84,6 +84,58 @@ const App = () => (
           <Route exact path='/resultadov9' component={Resultadov9} />
           <Route exact path='/resultadov10' component={Resultadov10} />
           <Route exact path='/resultadov11' component={Resultadov11} />
+          <Route exact path='/resultadov12' component={Resultadov12} />
+          <Route exact path='/resultadov13' component={Resultadov13} />
+          <Route exact path='/resultadov14' component={Resultadov14} />
+          <Route exact path='/resultadov15' component={Resultadov15} />
+          <Route exact path='/resultadov16' component={Resultadov16} />
+          <Route exact path='/resultadov17' component={Resultadov17} />
+          <Route exact path='/resultadov18' component={Resultadov18} />
+          <Route exact path='/resultadov19' component={Resultadov19} />
+          <Route exact path='/resultadov20' component={Resultadov20} />
+          <Route exact path='/resultadov21' component={Resultadov21} />
+          <Route exact path='/resultadov22' component={Resultadov22} />
+          <Route exact path='/resultadov23' component={Resultadov23} />
+          <Route exact path='/resultadov24' component={Resultadov24} />
+          <Route exact path='/resultadov25' component={Resultadov25} />
+          <Route exact path='/resultadov26' component={Resultadov26} />
+          <Route exact path='/resultadov27' component={Resultadov27} />
+          <Route exact path='/resultadov28' component={Resultadov28} />
+          <Route exact path='/resultadov29' component={Resultadov29} />
+          <Route exact path='/resultadov30' component={Resultadov30} />
+          <Route exact path='/resultadov31' component={Resultadov31} />
+          <Route exact path='/resultadov32' component={Resultadov32} />
+          <Route exact path='/resultadov33' component={Resultadov33} />
+          <Route exact path='/resultadov34' component={Resultadov34} />
+          <Route exact path='/resultadov35' component={Resultadov35} />
+          <Route exact path='/resultadov36' component={Resultadov36} />
+          <Route exact path='/resultadov37' component={Resultadov37} />
+          <Route exact path='/resultadov38' component={Resultadov38} />
+          <Route exact path='/resultadov39' component={Resultadov39} />
+          <Route exact path='/resultadov40' component={Resultadov40} />
+          <Route exact path='/resultadov41' component={Resultadov41} />
+          <Route exact path='/resultadov42' component={Resultadov42} />
+          <Route exact path='/resultadov43' component={Resultadov43} />
+          <Route exact path='/resultadov44' component={Resultadov44} />
+          <Route exact path='/resultadov45' component={Resultadov45} />
+          <Route exact path='/resultadov46' component={Resultadov46} />
+          <Route exact path='/resultadov47' component={Resultadov47} />
+          <Route exact path='/resultadov48' component={Resultadov48} />
+          <Route exact path='/resultadov49' component={Resultadov49} />
+          <Route exact path='/resultadov50' component={Resultadov50} />
+          <Route exact path='/resultadov51' component={Resultadov51} />
+          <Route exact path='/resultadov52' component={Resultadov52} />
+          <Route exact path='/resultadov53' component={Resultadov53} />
+          <Route exact path='/resultadov54' component={Resultadov54} />
+          <Route exact path='/resultadov55' component={Resultadov55} />
+          <Route exact path='/resultadov56' component={Resultadov56} />
+          <Route exact path='/resultadov57' component={Resultadov57} />
+          <Route exact path='/resultadov58' component={Resultadov58} />
+          <Route exact path='/resultadov59' component={Resultadov59} />
+          <Route exact path='/resultadov60' component={Resultadov60} />
+          <Route exact path='/resultadov61' component={Resultadov61} />
+          <Route exact path='/resultadov62' component={Resultadov62} />
+          <Route exact path='/resultadov63' component={ResultadoV63} />
         </HashRouter>
         <Route component={NotFound} />
       </Switch>
