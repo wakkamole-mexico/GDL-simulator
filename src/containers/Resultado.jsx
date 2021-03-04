@@ -40,7 +40,7 @@ const Resultado = () => (
     <Divider />
     <Salas />
     <Divider />
-    {/* <ProjectsDone /> */}
+    
   </div>
 );
 

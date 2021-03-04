@@ -75,6 +75,133 @@ body {
     background-size: 100% 200%;
     animation: scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite;
   }
+
+  // inicio estilos salas
+
+
+  .Salas-container{
+    // background-image: url(https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fbackgroundrusultado.svg?alt=media&token=d61c310d-a585-4fc1-a731-905766a4657a);
+    // background-size:cover;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    background-color:rgb(243, 248, 251);
+    height: auto;
+    // min-height: 100vh;
+    padding-bottom: 100px;
+    // padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.salas-title__container{
+    padding-top: 1rem;
+}
+
+.title--salas{
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    // margin-left: 40px;
+    font-size: 50px;
+    border-bottom: 25px solid #B5FB5F;
+    
+    // background-color: white
+    
+}
+
+.cards-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* height: 100%; */
+    /* width: 80%; */
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around
+}
+
+.card--item{
+    width: 500px;
+    height: auto;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/gdl-assets%2Fsalas%2FGrupo%20202.png?alt=media&token=12e73944-7246-4ce5-82e4-d8f859d57647');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    // background-color: yellow;
+    margin: 30px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    position: relative;
+}
+
+.card--button__container{
+    padding: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card--play__button{
+    background: transparent;
+    border: 0;
+}
+
+
+.card--play__icon{
+    font-size: 5rem;
+    color: white;
+    cursor: pointer;
+}
+
+// .card--item:hover{
+//     transform: scale(1.1);
+// }
+
+.card--item__img{
+    width: 612px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.card--item__details{
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%);
+    font-size: 10px;
+    padding: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card--item__details--title{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+  // fin estilos salas
   
   @keyframes scrolldown {
     0% {
@@ -104,3 +231,11 @@ body {
   }
 
 }
+
+// media queries salas
+  @media screen and (max-width: 450px){
+    .card--item{
+    width: 90vw;
+    }
+  }
+// fin media salas
