@@ -1,10 +1,15 @@
 import React from 'react';
 import '../assets/styles/components/ButtonCTA.scss';
+import { Link } from 'react-router-dom';
 
 const ButtonCTA = () => (
-  <button className='button--container'>
-    <a href='https://redessocialeswakkamole.wispform.com/40232c1b' className='button-cta'>Entrar</a>
+
+  <button type='button' className='button--container'>
+    <Link to='/Quizz'>
+      <a href='/Quizz' className='button-cta'>Entrar</a>
+    </Link>
   </button>
+
 );
 
 export default ButtonCTA;

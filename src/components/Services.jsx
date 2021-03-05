@@ -5,7 +5,7 @@ import '../assets/styles/components/Services.scss';
 const Services = () => (
   <div className='services--container'>
     <div className='services--container__title'>
-      <h1>SERVICIOS</h1>
+      <h1 className='title--services'>SERVICIOS</h1>
     </div>
     <div className='services--cards--container'>
       <div className='cards--item'>
@@ -28,7 +28,7 @@ const Services = () => (
       </div>
     </div>
     <div className='services--cards__subtitle'>
-      <h2 className="cards__subtitle--item">
+      <h2 className='cards__subtitle--item'>
         Entra a nuestro simulador y te mostraremos
         como puede verse tu proyecto.
       </h2>

@@ -66,6 +66,7 @@ import Resultadov60 from '../containers/ResultadoV60';
 import Resultadov61 from '../containers/ResultadoV61';
 import Resultadov62 from '../containers/ResultadoV62';
 import ResultadoV63 from '../containers/ResultadoV63';
+import Quizz from '../containers/Quizz';
 
 const App = () => (
   <BrowserRouter>
@@ -73,6 +74,7 @@ const App = () => (
       <Switch>
         <HashRouter>
           <Route exact path='/' component={Home} />
+          <Route exact path='/quizz' component={Quizz} />
           <Route exact path='/resultado' component={Resultado} />
           <Route exact path='/resultadov2' component={Resultadov2} />
           <Route exact path='/resultadov3' component={Resultadov3} />
