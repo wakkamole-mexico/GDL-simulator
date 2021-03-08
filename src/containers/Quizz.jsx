@@ -3,7 +3,7 @@ import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 const Quizz = () => {
   return (
-    <ReactTypeformEmbed url='https://2p5ooiqbdye.typeform.com/to/uRebciXp' />
+    <ReactTypeformEmbed url='https://2p5ooiqbdye.typeform.com/to/sGLvZSPE' />
   );
 };
 
